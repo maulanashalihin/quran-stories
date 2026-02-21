@@ -1,0 +1,555 @@
+/* Custom styles for Quran Stories - Deep Space Blue & Radiant Gold Theme */
+
+:root {
+  /* Background Colors - Deep Space Blue Theme */
+  --vp-c-bg: #161B33;
+  --vp-c-bg-alt: #1A243B;
+  --vp-c-bg-elv: #1e293b;
+  --vp-c-bg-soft: rgba(26, 36, 59, 0.8);
+  
+  /* Darker backgrounds */
+  --vp-c-bg-mute: #0B1120;
+  --vp-c-bg-dark: #0B1120;
+  
+  /* Accent Colors - Radiant Gold */
+  --vp-c-brand-1: #E5B85C;
+  --vp-c-brand-2: #D4AF37;
+  --vp-c-brand-3: #F9E09E;
+  --vp-c-brand-soft: rgba(229, 184, 92, 0.15);
+  
+  /* Text Colors */
+  --vp-c-text-1: #FFFFFF;
+  --vp-c-text-2: #E2E8F0;
+  --vp-c-text-3: #B0B8CC;
+  
+  /* Divider & Borders */
+  --vp-c-divider: rgba(229, 184, 92, 0.2);
+  --vp-c-gutter: rgba(229, 184, 92, 0.1);
+  
+  /* Custom blocks */
+  --vp-custom-block-tip-bg: rgba(229, 184, 92, 0.1);
+  --vp-custom-block-tip-border: #E5B85C;
+  --vp-custom-block-tip-text: #F9E09E;
+  
+  --vp-custom-block-info-bg: rgba(26, 36, 59, 0.6);
+  --vp-custom-block-info-border: #4A5568;
+  --vp-custom-block-info-text: #E2E8F0;
+  
+  --vp-custom-block-warning-bg: rgba(229, 184, 92, 0.1);
+  --vp-custom-block-warning-border: #D4AF37;
+  --vp-custom-block-warning-text: #F9E09E;
+  
+  --vp-custom-block-danger-bg: rgba(239, 68, 68, 0.1);
+  --vp-custom-block-danger-border: #EF4444;
+  --vp-custom-block-danger-text: #FCA5A5;
+}
+
+/* Dark mode (default) */
+.dark {
+  --vp-c-bg: #161B33;
+  --vp-c-bg-alt: #1A243B;
+  --vp-c-bg-elv: #1e293b;
+  --vp-c-bg-soft: rgba(26, 36, 59, 0.8);
+  --vp-c-bg-mute: #0B1120;
+  
+  --vp-c-text-1: #FFFFFF;
+  --vp-c-text-2: #E2E8F0;
+  --vp-c-text-3: #B0B8CC;
+}
+
+/* Light mode override */
+:root:not(.dark) {
+  --vp-c-bg: #f8fafc;
+  --vp-c-bg-alt: #ffffff;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f1f5f9;
+  --vp-c-bg-mute: #e2e8f0;
+  
+  --vp-c-text-1: #161B33;
+  --vp-c-text-2: #1A243B;
+  --vp-c-text-3: #475569;
+  
+  --vp-c-brand-1: #B8860B;
+  --vp-c-brand-2: #D4AF37;
+  --vp-c-brand-3: #E5B85C;
+}
+
+/* Sidebar styling */
+.VPSidebar {
+  background: linear-gradient(180deg, #161B33 0%, #1A243B 100%) !important;
+  border-right: 1px solid rgba(229, 184, 92, 0.15);
+}
+
+.VPSidebarGroup .title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #E5B85C;
+}
+
+.VPSidebarItem .text {
+  font-size: 13px;
+  color: #E2E8F0;
+}
+
+.VPSidebarItem.is-active .text {
+  color: #E5B85C;
+  font-weight: 600;
+}
+
+.VPSidebarItem:hover .text {
+  color: #F9E09E;
+}
+
+/* Content styling */
+.vp-doc h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #E5B85C, #F9E09E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 2px solid rgba(229, 184, 92, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(229, 184, 92, 0.25);
+  color: #FFFFFF;
+}
+
+.vp-doc h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: #E5B85C;
+}
+
+.vp-doc h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #F9E09E;
+}
+
+.vp-doc p {
+  color: #E2E8F0;
+  line-height: 1.8;
+}
+
+.vp-doc ul, .vp-doc ol {
+  color: #E2E8F0;
+}
+
+/* Arabic text styling */
+.vp-doc p:dir(rtl),
+.vp-doc p[dir="rtl"],
+.vp-doc blockquote:dir(rtl) {
+  font-family: 'Traditional Arabic', 'Scheherazade New', 'Amiri', serif;
+  font-size: 1.4rem;
+  line-height: 2;
+  text-align: right;
+  direction: rtl;
+  color: #FFFFFF;
+}
+
+/* Blockquote styling for Quran verses */
+.vp-doc blockquote {
+  background: linear-gradient(135deg, rgba(229, 184, 92, 0.1), rgba(11, 17, 32, 0.4));
+  border-left: 4px solid #E5B85C;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.vp-doc blockquote p {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.vp-doc blockquote p + p {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #B0B8CC;
+  font-style: italic;
+}
+
+/* Link styling */
+.vp-doc a {
+  color: #E5B85C;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  border-bottom: 1px solid transparent;
+}
+
+.vp-doc a:hover {
+  color: #F9E09E;
+  border-bottom-color: #F9E09E;
+}
+
+/* Table styling */
+.vp-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: rgba(11, 17, 32, 0.4);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vp-doc th {
+  background: rgba(229, 184, 92, 0.15);
+  color: #E5B85C;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid #E5B85C;
+}
+
+.vp-doc td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(229, 184, 92, 0.15);
+  color: #E2E8F0;
+}
+
+.vp-doc tr:hover td {
+  background: rgba(229, 184, 92, 0.05);
+}
+
+/* Custom badge */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-gold {
+  background: rgba(229, 184, 92, 0.2);
+  color: #E5B85C;
+  border: 1px solid rgba(229, 184, 92, 0.4);
+}
+
+.badge-blue {
+  background: rgba(22, 27, 51, 0.6);
+  color: #B0B8CC;
+  border: 1px solid rgba(176, 184, 204, 0.3);
+}
+
+/* Highlight box */
+.highlight-box {
+  background: linear-gradient(135deg, rgba(229, 184, 92, 0.1), rgba(11, 17, 32, 0.4));
+  border: 1px solid rgba(229, 184, 92, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-box-title {
+  font-weight: 600;
+  color: #E5B85C;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Navigation buttons */
+.VPDocFooter .pager-link {
+  border: 1px solid rgba(229, 184, 92, 0.2);
+  border-radius: 8px;
+  transition: all 0.2s;
+  background: rgba(11, 17, 32, 0.4);
+}
+
+.VPDocFooter .pager-link:hover {
+  border-color: #E5B85C;
+  background: rgba(229, 184, 92, 0.1);
+}
+
+.VPDocFooter .pager-link .title {
+  color: #E5B85C;
+}
+
+/* Search styling */
+.VPLocalSearchBox .search-input {
+  border-radius: 8px;
+  background: rgba(11, 17, 32, 0.6);
+  border: 1px solid rgba(229, 184, 92, 0.2);
+  color: #E2E8F0;
+}
+
+.VPLocalSearchBox .search-input:focus {
+  border-color: #E5B85C;
+  box-shadow: 0 0 0 2px rgba(229, 184, 92, 0.2);
+}
+
+/* Nav bar */
+.VPNav {
+  background: rgba(22, 27, 51, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(229, 184, 92, 0.15);
+}
+
+.VPNavBarMenuLink {
+  color: #E2E8F0;
+}
+
+.VPNavBarMenuLink:hover {
+  color: #E5B85C;
+}
+
+.VPNavBarMenuLink.active {
+  color: #E5B85C;
+}
+
+/* Button styling */
+.VPButton {
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.VPButton.medium.brand {
+  background: linear-gradient(135deg, #E5B85C, #D4AF37);
+  color: #161B33;
+  font-weight: 600;
+}
+
+.VPButton.medium.brand:hover {
+  background: linear-gradient(135deg, #F9E09E, #E5B85C);
+  box-shadow: 0 4px 20px rgba(229, 184, 92, 0.3);
+}
+
+.VPButton.medium.alt {
+  background: transparent;
+  border: 1px solid rgba(229, 184, 92, 0.4);
+  color: #E5B85C;
+}
+
+.VPButton.medium.alt:hover {
+  background: rgba(229, 184, 92, 0.1);
+  border-color: #E5B85C;
+}
+
+/* Hero section styling */
+.VPHero {
+  background: linear-gradient(180deg, #161B33 0%, #1A243B 50%, #0B1120 100%);
+}
+
+.VPHero .name {
+  background: linear-gradient(135deg, #E5B85C, #F9E09E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  color: #FFFFFF;
+}
+
+.VPHero .tagline {
+  color: #B0B8CC;
+}
+
+/* Features section */
+.VPFeatures {
+  background: linear-gradient(180deg, #0B1120 0%, #161B33 100%);
+}
+
+.VPFeature {
+  background: rgba(11, 17, 32, 0.5);
+  border: 1px solid rgba(229, 184, 92, 0.15);
+  border-radius: 16px;
+  transition: all 0.3s;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(229, 184, 92, 0.15);
+  border-color: rgba(229, 184, 92, 0.3);
+}
+
+.VPFeature .title {
+  color: #E5B85C;
+}
+
+.VPFeature .details {
+  color: #B0B8CC;
+}
+
+/* Footer */
+.VPFooter {
+  background: #0B1120;
+  border-top: 1px solid rgba(229, 184, 92, 0.15);
+}
+
+.VPFooter .message,
+.VPFooter .copyright {
+  color: #B0B8CC;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 1.75rem;
+  }
+  
+  .vp-doc h2 {
+    font-size: 1.25rem;
+  }
+  
+  .vp-doc h3 {
+    font-size: 1.1rem;
+  }
+  
+  .vp-doc blockquote {
+    padding: 1rem;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(229, 184, 92, 0.3);
+  color: #FFFFFF;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B1120;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A243B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E5B85C;
+}
+
+/* Code blocks */
+.vp-doc div[class*="language-"] {
+  background: #0B1120;
+  border: 1px solid rgba(229, 184, 92, 0.15);
+  border-radius: 8px;
+}
+
+/* Custom tip block */
+.vp-doc .custom-block.tip {
+  background: rgba(229, 184, 92, 0.08);
+  border: 1px solid rgba(229, 184, 92, 0.3);
+  border-radius: 8px;
+}
+
+.vp-doc .custom-block.tip .custom-block-title {
+  color: #E5B85C;
+}
+
+/* Info block */
+.vp-doc .custom-block.info {
+  background: rgba(26, 36, 59, 0.5);
+  border: 1px solid rgba(176, 184, 204, 0.2);
+  border-radius: 8px;
+}
+
+/* Warning block */
+.vp-doc .custom-block.warning {
+  background: rgba(229, 184, 92, 0.08);
+  border: 1px solid rgba(229, 184, 92, 0.3);
+  border-radius: 8px;
+}
+
+.vp-doc .custom-block.warning .custom-block-title {
+  color: #E5B85C;
+}
+
+/* ========================================
+   DARK MODE TOGGLE FOR MOBILE
+   ======================================== */
+
+/* Default: tema dark */
+:root {
+  --vp-nav-screen-bg-color: #161B33;
+}
+
+/* ========================================
+   MENU KANAN (VPNavBarExtra) DI MOBILE
+   ======================================== */
+
+/* 
+   Tingkatkan specificity dengan menggandakan class
+   untuk mengoverride CSS bawaan VitePress yang menggunakan [data-v-...]
+*/
+.VPNavBarExtra.VPNavBarExtra {
+  display: flex !important;
+  margin-right: 8px;
+}
+
+/* Sembunyikan VPNavBarExtra di desktop (768px - 1279px) */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .VPNavBarExtra.VPNavBarExtra {
+    display: block !important;
+  }
+}
+
+/* Tampilkan lagi di desktop besar */
+@media (min-width: 1280px) {
+  .VPNavBarExtra.VPNavBarExtra {
+    display: none !important;
+  }
+}
+
+/* Pastikan menu dropdown muncul di posisi yang benar di mobile */
+@media (max-width: 767px) {
+  .VPNavBarExtra.VPNavBarExtra .menu {
+    right: 0;
+    left: auto;
+  }
+  
+  .VPNavBarExtra.VPNavBarExtra .VPMenu {
+    min-width: 150px;
+  }
+}
+
+/* ========================================
+   SEMBUNYIKAN HAMBURGER MENU DI MOBILE
+   ======================================== */
+
+/* Sembunyikan tombol hamburger (VPNavBarHamburger) di mobile */
+/* Karena navigasi sudah bisa diakses dari sidebar kiri */
+.VPNavBarHamburger.VPNavBarHamburger {
+  display: none !important;
+}
+
+/* ========================================
+   TOGGLE TEMA DI MENU MOBILE FULLSCREEN
+   ======================================== */
+
+/* Tampilkan dark mode toggle di dalam menu mobile fullscreen */
+.VPNavScreenAppearance.VPNavScreenAppearance {
+  display: flex !important;
+}
+
+/* Label "Tema" di mobile menu */
+.VPNavScreenAppearance.VPNavScreenAppearance .title {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
