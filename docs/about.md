@@ -1,5 +1,11 @@
 # Tentang Quran Stories
 
+*Mengapa kisah Qurani masih relevan untuk kehidupan modern?*
+
+---
+
+<br>
+
 <div style="text-align: center; padding: 2rem; background: rgba(11, 17, 32, 0.5); border-radius: 16px; border: 1px solid rgba(229, 184, 92, 0.2); margin-bottom: 2rem;">
 
 ## ✨ "Sesungguhnya Al-Quran ini memberi petunjuk kepada jalan yang paling lurus..."
@@ -8,44 +14,43 @@
 
 </div>
 
+---
+
 ## 🎯 Visi
 
-**Quran Stories: The Great Reset** lahir dari kebutuhan mendalam akan pemahaman Islam yang relevan dengan tantangan modern. Kami percaya Al-Quran bukan sekadar kitab sejarah, tapi **petunjuk hidup** yang abadi dan aplikatif di setiap zaman.
+**Quran Stories** lahir dari kebutuhan sederhana: membuat Al-Quran terasa dekat dan relevan.
 
-Dalam dunia yang penuh noise dan distraksi, banyak orang merasa **lost** — sibuk tapi tanpa arah. Proyek ini adalah upaya untuk membantu pembaca menemukan kembali **poros kehidupan** melalui kisah-kisah yang terstruktur secara sistematis.
+Banyak orang merasa Al-Quran itu "berat" atau "jauh" dari kehidupan sehari-hari. Padahal, di dalamnya ada kisah-kisah yang bisa menginspirasi, menenangkan, dan memberi arah — kalau saja kita tahu cara membacanya.
+
+Proyek ini adalah upaya untuk menjembatani kesenjangan tersebut. Bukan dengan tafsir yang panjang dan teoritis, tapi dengan cerita-cerita yang mengalir dan nyambung dengan pengalaman hidup kita.
 
 ---
 
-## 📖 Metodologi: Al-Uqdah al-Kubra (Simpul Besar)
+## 📖 Metodologi: Tiga Pertanyaan Hidup
 
-Setiap cerita dibangun dengan kerangka berpikir yang menyatukan tiga pertanyaan fundamental kehidupan:
+Setiap cerita dibangun dengan kerangka berpikir yang menyatukan tiga pertanyaan fundamental:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    AL-UKDAH AL-KUBRA                        │
-│                      (Simpul Besar)                         │
+│                     TIGA PERTANYAAN HIDUP                   │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │   🌌 MIN AINA?        ⚔️ LI MADZA?         🌅 ILA AINA?     │
 │   Darimana?           Untuk Apa?            Kemana?         │
 │                                                             │
-│   • Big Bang          • Sistem Islam      • Alam Barzakh   │
-│   • Malaikat          • 25 Nabi           • Hari Akhir     │
-│   • Jin & Iblis       • Real Talk   • Hisab          │
-│   • Penciptaan        • Psikologi         • Surga/Neraka   │
-│     Manusia             Pejuang           • Al-Wa'd        │
+│   • Penciptaan        • Makna Hidup       • Akhirat        │
+│   • Alam Semesta      • Sistem Islam      • Hari Kiamat    │
+│   • Manusia           • Kisah Nabi        • Surga/Neraka   │
 │                                                             │
 │                      100 CERITA                             │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Tiga Pilar Utama
-
 | Pilar | Fokus | Cerita |
 |:-----:|-------|:------:|
-| **Min Aina?** | Memahami Sang Pencipta melalui bukti sains Quran | 11 |
-| **Li Madza?** | Menemukan makna hidup dan misi perjuangan | 74 |
+| **Min Aina?** | Memahami Sang Pencipta | 11 |
+| **Li Madza?** | Menemukan makna hidup | 74 |
 | **Ila Aina?** | Mempersiapkan perjalanan akhir | 15 |
 
 ---
@@ -57,19 +62,19 @@ Setiap cerita berdasarkan:
 - Al-Quran dan Tafsir
 - Hadits Shahih
 - Sirah Nabawiyah
-- Pemahaman Salafush Shalih
+- Pemahaman ulama terpercaya
 
-### 2. **Bahasa Kontekstual**
+### 2. **Bahasa yang Mudah**
 Menggunakan bahasa yang:
-- Mudah dipahami generasi muda
-- Tetap menghormati kesakralan pesan
+- Tidak membingungkan
 - Relevan dengan tantangan modern
+- Tetap menghormati kesakralan pesan
 
 ### 3. **Aplikatif**
 Setiap cerita menghadirkan:
-- **Refleksi untuk Diri** — aplikasi personal
-- **Real Talk** — analisis sistem modern
-- **Korelasi Simpul Besar** — hubungan antar konsep
+- **Refleksi pribadi** — aplikasi untuk diri sendiri
+- **Analisis kontekstual** — hubungan dengan isu modern
+- **Transisi yang mengalir** — antar cerita terhubung
 
 ---
 
@@ -199,7 +204,7 @@ Persiapan untuk pertemuan dengan Sang Khaliq.
 <div style="padding: 1.5rem; background: rgba(11, 17, 32, 0.5); border-radius: 12px; border: 1px solid rgba(229, 184, 92, 0.15);">
 
 🎓 **Mahasiswa & Pelajar**
-Memperkuat akidah di tengah tantangan kampus
+Memperkuat pemahaman di tengah tantangan kampus
 
 </div>
 
@@ -212,15 +217,15 @@ Mencari makna di balik rutinitas kerja
 
 <div style="padding: 1.5rem; background: rgba(11, 17, 32, 0.5); border-radius: 12px; border: 1px solid rgba(229, 184, 92, 0.15);">
 
-📚 **Penuntut Ilmu**
-Materi dakwah yang relevan dan mudah dipahami
+📚 **Pencari Ilmu**
+Materi yang relevan dan mudah dipahami
 
 </div>
 
 <div style="padding: 1.5rem; background: rgba(11, 17, 32, 0.5); border-radius: 12px; border: 1px solid rgba(229, 184, 92, 0.15);">
 
 🔍 **Truth Seeker**
-Yang skeptis dan ingin menemukan kebenaran
+Yang ingin menemukan kebenaran
 
 </div>
 
@@ -248,9 +253,21 @@ Pilih berdasarkan kebutuhanmu saat ini:
 
 ---
 
+## ✍️ Tentang Penulis
+
+**Maulana Shalihin** — Seorang pencari makna yang mencoba menjembatani pesan-pesan abadi Al-Quran dengan kehidupan modern. Bukan seorang ulama, hanya seorang pembelajar yang ingin berbagi apa yang dipahami dari kisah-kisah Qurani.
+
+💻 **Proyek Open Source**
+
+Quran Stories adalah proyek open source. Kode sumber tersedia di GitHub untuk siapa saja yang ingin belajar, berkontribusi, atau membuat versi serupa.
+
+👉 [github.com/maulanashalihin/quran-stories](https://github.com/maulanashalihin/quran-stories)
+
+---
+
 <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, rgba(229, 184, 92, 0.1), rgba(11, 17, 32, 0.5)); border-radius: 16px; border: 1px solid rgba(229, 184, 92, 0.2); margin-top: 2rem;">
 
-### 📊 Status: 100/100 Cerita Lengkap ✅
+### 📊 100/100 Cerita Lengkap ✅
 
 **"Dan Kami turunkan dari Al-Quran apa yang menjadi obat dan rahmat bagi orang-orang yang beriman."**
 

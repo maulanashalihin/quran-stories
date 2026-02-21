@@ -209,6 +209,50 @@ export default defineConfig({
     ['meta', { name: 'og:locale', content: 'id' }],
     ['meta', { name: 'og:title', content: 'Quran Stories - The Great Reset' }],
     ['meta', { name: 'og:description', content: '100 Kisah untuk Reset Cara Berpikir Tentang Hidup, Tujuan, dan Akhirat' }],
+    ['script', {}, `
+      (function() {
+        function addNavLinksToDropdown() {
+          if (window.innerWidth > 767) return;
+          
+          const menu = document.querySelector('.VPNavBarExtra .VPMenu');
+          if (!menu || menu.querySelector('.mobile-nav-custom')) return;
+          
+          const nav = document.createElement('div');
+          nav.className = 'mobile-nav-custom';
+          nav.innerHTML = '<a href="/" class="nav-item">🏠 Beranda</a><a href="/stories/" class="nav-item">📚 Daftar Cerita</a><a href="/about" class="nav-item">ℹ️ Tentang</a>';
+          
+          const group = menu.querySelector('.group');
+          if (group) {
+            group.insertAdjacentElement('afterend', nav);
+          } else {
+            menu.insertBefore(nav, menu.firstChild);
+          }
+        }
+        
+        // Jalankan saat DOM ready
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', addNavLinksToDropdown);
+        } else {
+          addNavLinksToDropdown();
+        }
+        
+        // Jalankan lagi setelah navigasi client-side
+        let lastUrl = location.href;
+        new MutationObserver(() => {
+          if (location.href !== lastUrl) {
+            lastUrl = location.href;
+            setTimeout(addNavLinksToDropdown, 100);
+          }
+        }).observe(document, { subtree: true, childList: true });
+        
+        // Jalankan saat menu dibuka
+        document.addEventListener('click', function(e) {
+          if (e.target.closest('.VPNavBarExtra .button')) {
+            setTimeout(addNavLinksToDropdown, 50);
+          }
+        });
+      })();
+    `]
   ],
 
   cleanUrls: true,

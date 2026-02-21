@@ -540,6 +540,43 @@ html {
 }
 
 /* ========================================
+   LINK NAVIGASI DI MENU DROPDOWN MOBILE
+   ======================================== */
+
+/* Container untuk link navigasi custom */
+.mobile-nav-custom {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-nav-custom {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    border-top: 1px solid var(--vp-c-divider);
+    margin: 8px 8px 0;
+  }
+  
+  .mobile-nav-custom .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    color: var(--vp-c-text-1);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    margin: 2px 0;
+  }
+  
+  .mobile-nav-custom .nav-item:hover {
+    background-color: var(--vp-c-bg-soft);
+    color: var(--vp-c-brand-1);
+  }
+}
+
+/* ========================================
    TOGGLE TEMA DI MENU MOBILE FULLSCREEN
    ======================================== */
 
